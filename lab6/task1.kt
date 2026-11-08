@@ -1,3 +1,5 @@
+package lab6
+
 data class Address(
     val street: String,
     val city: String?,

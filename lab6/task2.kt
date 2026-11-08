@@ -1,3 +1,5 @@
+package lab6
+
 fun generateRandomArray(size: Int, maxValue: Int): IntArray? {
     if (size <= 0 || maxValue <= 0) return null
     return IntArray(size) { kotlin.random.Random.nextInt(0, maxValue + 1) }
